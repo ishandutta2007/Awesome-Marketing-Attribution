@@ -63,7 +63,7 @@ The following SaaS attribution and marketing measurement platforms are sorted in
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source attribution libraries, media mix modeling engines, self-hosted Mobile Measurement Platforms (MMPs), and tracking pixel infrastructures. Repositories are sorted in **descending order by GitHub stars ⭐**. Beside each repository name is a social badge linking directly to its stargazer community.
+Open-source attribution libraries, media mix modeling engines, self-hosted Mobile Measurement Platforms (MMPs), and tracking pixel infrastructures. Repositories are sorted in **descending order by GitHub_Stars ⭐**. Beside each repository name is a social badge linking directly to its stargazer community.
 
 - **[Snowplow](https://github.com/snowplow/snowplow)** [![Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
   Enterprise-grade, first-party behavioral customer data pipeline and event tracking infrastructure. Foundation for building sovereign cross-platform attribution pipelines with real-time streaming into Snowflake, BigQuery, and Databricks.
