@@ -1,6 +1,6 @@
 # Awesome-Marketing-Attribution
 
-# Top Marketing Attribution Tools Ecosystem
+## Top Marketing Attribution Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Multi-Touch Attribution, Mobile Measurement & Unified Marketing Measurement*  
