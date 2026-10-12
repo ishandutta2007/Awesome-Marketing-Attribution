@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Awesome Marketing Attribution Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/ishandutta2007/Awesome-Marketing-Attribution/main/assets/banner.svg" alt="Awesome Marketing Attribution Banner" width="100%" />
 
 # 📊 Awesome Marketing Attribution 🎯
 
