@@ -1,31 +1,50 @@
-# Awesome-Marketing-Attribution
+<div align="center">
 
-## Top Marketing Attribution Tools Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Marketing Attribution Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Multi-Touch Attribution, Mobile Measurement & Unified Marketing Measurement*  
-**Last updated: March 2026**
+# 📊 Awesome Marketing Attribution 🎯
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Marketing Attribution Tools**. These tools connect ad impressions and clicks to downstream conversions, distribute credit across marketing channels, and provide budget optimization insights — using rule-based models, Markov chains, Shapley values, and causal inference.
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Curated List](https://img.shields.io/badge/curated-awesome--list-FF6B6B?style=flat-square&logo=awesomelists&logoColor=white)](https://github.com/ishandutta2007/Awesome-Marketing-Attribution)
+[![License: MIT](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Marketing-Attribution/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Marketing-Attribution/graphs/commit-activity)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Examples** include Salesforce Bizible, Rockerbox, Dreamdata, AppsFlyer, Adjust, Singular, Attribution App, FullCircle Insights, HockeyStack, and Windsor.ai (the category leaders).
+**A definitive curated catalog of top SaaS platforms and open-source tools for Multi-Touch Attribution (MTA), Media Mix Modeling (MMM), Mobile Measurement Partners (MMP), and Unified Marketing Measurement (UMM).**
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom attribution logic, and transparent mobile measurement — ideal for growth engineers, data teams, and developers building data-sovereign marketing analytics.
+*Track user touchpoints, solve the multi-touch attribution puzzle, evaluate Shapley & Markov chain models, optimize ROAS, and achieve complete marketing data sovereignty.*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global marketing attribution software market is valued at approximately **$4.6B – $5.5B** and projected to surpass **$15B – $17.7B by the mid-2030s**, expanding at a CAGR of ~**13.5% – 14.6%**. The sector is **moderately fragmented**: mega-cap enterprise cloud ecosystems (Salesforce, Adobe, AppLovin) hold major aggregate footprint, while agile specialized attribution and mobile measurement providers (AppsFlyer, Dreamdata, HockeyStack, Rockerbox) vigorously compete and command high market share across multi-touch attribution, mobile measurement (MMPs), and product-led growth pipelines.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Recipes for Custom Stacks](#-architectural-recipes-for-custom-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
-## SaaS/Hosted Platforms
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global marketing attribution software market is valued at approximately **$4.6B – $5.5B** and projected to surpass **$15B – $17.7B by the mid-2030s**, expanding at a CAGR of ~**13.5% – 14.6%**. 
+
+The sector is **moderately fragmented**:
+- **Enterprise Cloud Suites:** Megacap conglomerates (Salesforce, Adobe / Bizible, AppLovin) hold substantial footprint across established enterprise CRM, ad networks, and ERP environments.
+- **Specialized Best-of-Breed Disruptors:** Agile players across multi-touch attribution (MTA), mobile measurement (AppsFlyer, Adjust, Singular), and B2B revenue intelligence (Dreamdata, HockeyStack, Rockerbox) command massive loyalty among digital-first brands requiring granular touchpoint pathing, causal AI, and privacy-first SKAdNetwork / Privacy Sandbox measurement.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+The following SaaS attribution and marketing measurement platforms are sorted in descending order by **Company Size (Valuation / Revenue)**:
 
 | Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -40,66 +59,129 @@ The global marketing attribution software market is valued at approximately **$4
 | **[FullCircle Insights](https://www.fullcircleinsights.com/)** | **~$10M Valuation** (~$5M ARR; $9.5M total funding) | Starts at **$4,166/month** (~$50,000/year base contract + setup fees) | **No free tier or trial**; deployment requires custom scoping and guided 1–8 week Salesforce deployment | B2B marketing attribution and funnel analytics natively built on Salesforce. |
 | **[Attribution App](https://attributionapp.com/)** | **~$2M – $4M Valuation** (~$880K ARR) | Starts at **$199/month** (Shopify plan) or **$399/month** (Pro plan for up to 10k monthly visitors) | **14-day free trial** on Pro plan (full access to ad connectors and models); no permanent free tier | Multi-touch attribution and marketing analytics for e-commerce and SaaS businesses. |
 
-## Open-Source GitHub Projects
+---
 
-- **[adsat](https://pypi.org/project/adsat/)**  
-  Python marketing attribution toolkit implementing Shapley value, Markov chain, and data-driven logistic regression models. Features auto-switching between exact and Monte Carlo Shapley for high channel counts, model evaluation across five dimensions, and ROI-weighted budget allocation advice. [citation:1]
+## 🔓 Open-Source GitHub Projects
 
-- **[LinkForty Flutter SDK](https://pub.dev/packages/linkforty_flutter)**  
-  Open-source alternative to AppsFlyer OneLink and Branch for Flutter apps. Provides deferred deep linking, mobile attribution via privacy-compliant fingerprinting, event tracking with offline queue, and last-click attribution. No IDFA/GAID collection by default. [citation:2]
+Open-source attribution libraries, media mix modeling engines, self-hosted Mobile Measurement Platforms (MMPs), and tracking pixel infrastructures. Repositories are sorted in **descending order by GitHub stars ⭐**. Beside each repository name is a social badge linking directly to its stargazer community.
 
-- **[LinkForty Expo SDK](https://www.npmjs.com/package/@linkforty/mobile-sdk-expo)**  
-  Expo SDK for LinkForty enabling deferred deep linking, mobile attribution, and conversion tracking in React Native/Expo apps. Self-hosted, privacy-first, with revenue tracking and programmatic link creation. [citation:6]
+- **[Snowplow](https://github.com/snowplow/snowplow)** [![Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)  
+  Enterprise-grade, first-party behavioral customer data pipeline and event tracking infrastructure. Foundation for building sovereign cross-platform attribution pipelines with real-time streaming into Snowflake, BigQuery, and Databricks.
 
-- **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)**  
-  Open-source Mobile Measurement Platform (MMP) for true ownership of mobile ad data. Features impression/click/event tracking on your own domain, ClickHouse analytics database with custom SQL attribution logic, and iOS/Android SDKs. Alpha stage. [citation:10]
+- **[Robyn](https://github.com/facebookexperimental/Robyn)** [![Stars](https://img.shields.io/github/stars/facebookexperimental/Robyn?style=social&color=white)](https://github.com/facebookexperimental/Robyn/stargazers)  
+  Meta's open-source experimental Marketing Mix Modeling (MMM) package in R and Python. Uses multi-objective evolutionary algorithms (Nevergrad) to calibrate model hyperparameters against ground-truth attribution and geo-experiments while preventing ad spend biases.
 
-- **[Prosper202](https://github.com/tracking202/prosper202)**  
-  Open-source PPC conversion tracking software with attribution capabilities. PHP/MySQL stack with Docker deployment, shared hosting support, and Coolify integration. Tracks clicks, conversions, and ROI for paid campaigns. [citation:9]
+- **[PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing)** [![Stars](https://img.shields.io/github/stars/pymc-labs/pymc-marketing?style=social&color=white)](https://github.com/pymc-labs/pymc-marketing/stargazers)  
+  Bayesian marketing analytics toolkit supporting Bayesian Media Mix Modeling (MMM), Customer Lifetime Value (CLV) estimation, and saturation/adstock analysis with custom Bayesian priors.
 
-- **[Attributor](https://github.com/Crynge/Attributor)**  
-  Go-based multi-touch attribution and Bayesian media mix modeling engine. Implements Shapley values, Markov chains, and Bayesian MMM with adstock/saturation. Includes REST API and budget simulation. [citation:17]
+- **[LightweightMMM](https://github.com/google/lightweight_mmm)** [![Stars](https://img.shields.io/github/stars/google/lightweight_mmm?style=social&color=white)](https://github.com/google/lightweight_mmm/stargazers)  
+  Google's lightweight Bayesian Marketing Mix Modeling library built in Python using JAX and NumPyro. Scales to high-volume multi-channel ad spend data with Hill and Adstock transformations.
 
-- **[Causal MMM + MTA Platform](https://github.com/Crynge/causal-mmm-mta-platform)**  
-  Python research platform unifying Bayesian Marketing Mix Modeling, multi-touch attribution (Markov, Shapley), and causal inference. Includes hierarchical MMM scaffolding, adstock/saturation transforms, and causal graph discovery. [citation:19]
+- **[OpenPixel](https://github.com/dockwa/openpixel)** [![Stars](https://img.shields.io/github/stars/dockwa/openpixel?style=social&color=white)](https://github.com/dockwa/openpixel/stargazers)  
+  Open-source JavaScript tracking pixel library. Self-hostable alternative to Facebook Pixel and Google Tag Manager client library for capturing page views, conversions, UTM parameters, and custom attribution events.
 
-- **[MultiTouchAttribution (GregMurray30)](https://github.com/GregMurray30/MultiTouchAttribution)**  
-  Models for multi-touch attribution with simulation methodology. Implements DLAW (Data-driven Last-touch Attribution Weighting) with documented MAE comparisons against last-touch, first-touch, and 50/50 models. [citation:7]
+- **[Snowplow Referer Parser](https://github.com/snowplow-referer-parser/referer-parser)** [![Stars](https://img.shields.io/github/stars/snowplow-referer-parser/referer-parser?style=social&color=white)](https://github.com/snowplow-referer-parser/referer-parser/stargazers)  
+  Multi-language library (Python, Java, Scala, Ruby, Node.js) for parsing attribution data, search terms, and campaign traffic sources out of raw HTTP referrer URLs.
 
-- **[Multi-Touch Attribution (GitHub Topic)](https://github.com/topics/multi-touch-attribution)**  
-  Collection of 13+ public repositories implementing MTA models including Markov chains, Shapley values, and deep learning approaches. Includes end-to-end pipelines with MTA vs MMM reconciliation frameworks. [citation:3]
+- **[Marketing-Attribution-Models (Nova MAM)](https://github.com/DP6/Marketing-Attribution-Models)** [![Stars](https://img.shields.io/github/stars/DP6/Marketing-Attribution-Models?style=social&color=white)](https://github.com/DP6/Marketing-Attribution-Models/stargazers)  
+  High-performance Python library optimized with Polars and Pandas for digital marketing attribution. Calculates heuristic models (first-click, last-click, linear, time-decay, position-based) alongside algorithmic models (Markov Chains and Shapley Values).
 
-- **[caddy-utm-tracker](https://pkg.go.dev/github.com/xor22h/caddy-utm-tracker)**  
-  Caddy v2 middleware plugin that transparently captures UTM parameters and marketing attribution data from incoming requests. Zero code changes required — fires events to OpenPanel asynchronously. [citation:5]
+- **[Awesome Marketing Machine Learning](https://github.com/station-10/awesome-marketing-machine-learning)** [![Stars](https://img.shields.io/github/stars/station-10/awesome-marketing-machine-learning?style=social&color=white)](https://github.com/station-10/awesome-marketing-machine-learning/stargazers)  
+  Curated collection of machine learning algorithms for marketing analytics, containing multi-touch attribution (MTA), causal inference, churn modeling, and media mix models.
 
-### Additional Strong Open-Source Options
+- **[eeghor/mta](https://github.com/eeghor/mta)** [![Stars](https://img.shields.io/github/stars/eeghor/mta?style=social&color=white)](https://github.com/eeghor/mta/stargazers)  
+  Multi-touch attribution framework in Python featuring Markov Chains, transition probability matrices, and removal effects to objectively measure marketing channel contribution.
 
-- **[Snowplow](https://github.com/snowplow/snowplow)** — First-party event tracking infrastructure for building custom attribution pipelines. [citation:4]
-- **[Open Pixel](https://github.com/openpixel/OpenPixel)** — Open-source pixel tracking library for web attribution. [citation:4]
-- **[UTM.io](https://github.com/utmio/utm.io)** — Open-source UTM parameter management at scale. [citation:4]
-- **[Button Merchant Library](https://developer.usebutton.com/docs/button-merchant-library-overview)** — Open-source Android/iOS library for mobile attribution capture, deferred deep linking, and tap-through tracking. [citation:18]
-- **[Mautic Media Bundle](https://packagist.org/packages/thedmsgroup/mautic-media-bundle)** — Pulls cost data from media advertising services into Mautic for ROI calculation. [citation:8]
-- **[Robyn](https://github.com/facebookexperimental/Robyn)** — Meta's open-source Marketing Mix Modeling package with budget allocator. [citation:16]
-- **[PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing)** — Bayesian marketing analytics with MMM, CLV, and custom priors. [citation:16]
+- **[dwz-server](https://github.com/muleiwu/dwz-server)** [![Stars](https://img.shields.io/github/stars/muleiwu/dwz-server?style=social&color=white)](https://github.com/muleiwu/dwz-server/stargazers)  
+  Enterprise URL shortener and campaign tracking platform that combines short-link generation, multi-domain management, A/B testing, marketing attribution, and click analytics.
 
-**Frameworks for building custom systems**: Combine **adsat** for Python attribution modeling, **LinkForty** for mobile attribution SDK, **OpenAttribution** for self-hosted MMP, **caddy-utm-tracker** for server-side UTM capture, and **ClickHouse + Grafana** for attribution analytics to build a complete self-hosted attribution stack.
+- **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)** [![Stars](https://img.shields.io/github/stars/OpenAttribution/open-attribution?style=social&color=white)](https://github.com/OpenAttribution/open-attribution/stargazers)  
+  Open-source Mobile Measurement Platform (MMP) giving app publishers complete ownership of ad attribution data. Features impression/click tracking, ClickHouse analytical storage, and transparent attribution logic for iOS/Android.
 
-## How to Contribute
+- **[Markov-Chain (Marketing Attribution)](https://github.com/MatCyt/Markov-Chain)** [![Stars](https://img.shields.io/github/stars/MatCyt/Markov-Chain?style=social&color=white)](https://github.com/MatCyt/Markov-Chain/stargazers)  
+  R-based multi-channel attribution and budget reallocation engine applying discrete-time Markov chains and removal effect matrices to customer conversion journeys.
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+- **[Game Theory Attribution](https://github.com/jrkinley/game-theory-attribution)** [![Stars](https://img.shields.io/github/stars/jrkinley/game-theory-attribution?style=social&color=white)](https://github.com/jrkinley/game-theory-attribution/stargazers)  
+  Data-driven multichannel marketing attribution model using cooperative game theory (Shapley Value) in Python to equitably distribute conversion credit across ad touchpoints.
 
-Star the repo if you find it useful!
+- **[Attention-RNN Multi-Touch Attribution](https://github.com/jeremite/channel-attribution-model)** [![Stars](https://img.shields.io/github/stars/jeremite/channel-attribution-model?style=social&color=white)](https://github.com/jeremite/channel-attribution-model/stargazers)  
+  Attention-based Recurrent Neural Network (RNN) multi-touch attribution model in Python. Learns deep non-linear conversion dynamics and assigns multi-channel credit while accounting for user context and temporal decay.
 
-## Disclaimer
+- **[Multi-Touch Attribution Shapley Value](https://github.com/bernard-mlab/Multi-Touch-Attribution_ShapleyValue)** [![Stars](https://img.shields.io/github/stars/bernard-mlab/Multi-Touch-Attribution_ShapleyValue?style=social&color=white)](https://github.com/bernard-mlab/Multi-Touch-Attribution_ShapleyValue/stargazers)  
+  Python implementation of exact and sample-based Shapley value algorithms tailored for customer journey attribution and budget simulation.
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Marketing attribution tools must comply with data protection regulations (GDPR, CCPA), platform policies (Apple ATT, Google Privacy Sandbox), and consent requirements.
-- Self-hosted open-source solutions require proper security hardening, data governance, and attribution model validation.
+- **[Prosper202](https://github.com/tracking202/prosper202)** [![Stars](https://img.shields.io/github/stars/tracking202/prosper202?style=social&color=white)](https://github.com/tracking202/prosper202/stargazers)  
+  Veteran open-source PPC conversion tracking and click attribution software with real-time campaign profitability calculation and Docker deployment support.
+
+- **[Marketing Attribution Data Model](https://github.com/kobzevvv/marketing-attribution-data-model)** [![Stars](https://img.shields.io/github/stars/kobzevvv/marketing-attribution-data-model?style=social&color=white)](https://github.com/kobzevvv/marketing-attribution-data-model/stargazers)  
+  Complete marketing attribution data warehouse model in SQL for ClickHouse and BigQuery, implementing first-touch, last-touch, linear, and time-decay attribution models directly in data warehouses.
+
+- **[Databricks Multi-Touch Attribution](https://github.com/databricks-industry-solutions/multi-touch-attribution)** [![Stars](https://img.shields.io/github/stars/databricks-industry-solutions/multi-touch-attribution?style=social&color=white)](https://github.com/databricks-industry-solutions/multi-touch-attribution/stargazers)  
+  Databricks solution accelerator for large-scale multi-touch attribution. Combines Spark, MLflow, and graph models to evaluate touchpoint impact and optimize media mix.
+
+- **[MultiTouchAttribution (DLAW)](https://github.com/GregMurray30/MultiTouchAttribution)** [![Stars](https://img.shields.io/github/stars/GregMurray30/MultiTouchAttribution?style=social&color=white)](https://github.com/GregMurray30/MultiTouchAttribution/stargazers)  
+  Attribution simulation framework implementing Data-driven Last-touch Attribution Weighting (DLAW) with empirical MAE comparisons against traditional heuristics.
+
+- **[Tasman dbt MTA Package](https://github.com/TasmanAnalytics/tasman-dbt-mta)** [![Stars](https://img.shields.io/github/stars/TasmanAnalytics/tasman-dbt-mta?style=social&color=white)](https://github.com/TasmanAnalytics/tasman-dbt-mta/stargazers)  
+  Modular dbt package for calculating first-touch, last-touch, linear, U-shaped, and Markov multi-touch attribution inside cloud data warehouses.
+
+- **[ChannelAttribution](https://github.com/DavideAltomare/ChannelAttribution)** [![Stars](https://img.shields.io/github/stars/DavideAltomare/ChannelAttribution?style=social&color=white)](https://github.com/DavideAltomare/ChannelAttribution/stargazers)  
+  High-performance C++ backend with R and Python bindings implementing $k$-order Markov Chains and heuristic algorithms for multi-channel journey attribution.
+
+- **[Attributor](https://github.com/Crynge/Attributor)** [![Stars](https://img.shields.io/github/stars/Crynge/Attributor?style=social&color=white)](https://github.com/Crynge/Attributor/stargazers)  
+  Go-based multi-touch attribution and Bayesian media mix modeling microservice with Shapley values, Markov removal effects, and REST API endpoints.
+
+- **[Causal MMM + MTA Platform](https://github.com/Crynge/causal-mmm-mta-platform)** [![Stars](https://img.shields.io/github/stars/Crynge/causal-mmm-mta-platform?style=social&color=white)](https://github.com/Crynge/causal-mmm-mta-platform/stargazers)  
+  Python research platform combining Bayesian Marketing Mix Modeling, multi-touch attribution, causal graph discovery, and incrementality reconciliation.
+
+- **[caddy-utm-tracker](https://github.com/xor22h/caddy-utm-tracker)** [![Stars](https://img.shields.io/github/stars/xor22h/caddy-utm-tracker?style=social&color=white)](https://github.com/xor22h/caddy-utm-tracker/stargazers)  
+  Caddy v2 web server plugin for transparent server-side UTM parameter capture and asynchronous attribution event emission.
+
+- **[adsat](https://github.com/stefanobandera1/adsat)** [![Stars](https://img.shields.io/github/stars/stefanobandera1/adsat?style=social&color=white)](https://github.com/stefanobandera1/adsat/stargazers)  
+  Python advertising saturation and attribution toolkit implementing Shapley values, Markov models, and ROI-weighted budget allocation.
 
 ---
 
-**Made for growth engineers, marketing analysts, data teams, and developers building transparent marketing attribution platforms.**  
-Let's make marketing attribution more open, privacy-conscious, and developer-friendly.
+## 🛠️ Architectural Recipes for Custom Stacks
+
+Want to eliminate recurring vendor costs and build a privacy-first, custom attribution pipeline? Here is the recommended blueprint:
+
+1. **Client & Server Capture:** Deploy **[Snowplow](https://github.com/snowplow/snowplow)** or **[OpenPixel](https://github.com/dockwa/openpixel)** with **[caddy-utm-tracker](https://github.com/xor22h/caddy-utm-tracker)** for zero-data-loss web tracking.
+2. **Mobile Attribution:** Integrate **[OpenAttribution](https://github.com/OpenAttribution/open-attribution)** for self-hosted MMP capabilities with privacy-compliant fingerprinting and deep linking.
+3. **Data Warehouse & Transformation:** Ingest into **ClickHouse** or **BigQuery** using **[tasman-dbt-mta](https://github.com/TasmanAnalytics/tasman-dbt-mta)** or **[marketing-attribution-data-model](https://github.com/kobzevvv/marketing-attribution-data-model)**.
+4. **Algorithmic Credit Modeling:** Execute **[Marketing-Attribution-Models](https://github.com/DP6/Marketing-Attribution-Models)** for Markov & Shapley touchpoint credit.
+5. **Macro Calibration:** Calibrate top-down spend using **[Robyn](https://github.com/facebookexperimental/Robyn)** or **[PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing)**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help make this ecosystem resource even more valuable:
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/add-attribution-tool`).
+3. 📝 Add your tool in alphabetical or star order with factual details and official links.
+4. 🚀 Open a Pull Request with a clear description of why the tool belongs in this list.
+
+---
+
+## 💖 Support
+
+If you find this repository helpful for your marketing engineering and attribution workflows, please consider:
+- ⭐ **Starring this repository** to help others discover it.
+- 🍴 **Forking and sharing** it with your growth engineering and data science teams.
+- ☕ **Sponsoring the maintainer:** [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) to help support ongoing maintenance and new awesome lists!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Marketing-Attribution&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Marketing-Attribution&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a community-curated list for informational and educational purposes. Mention of products does not imply official endorsement.
+- All attribution tracking and analytics implementations must strictly comply with regional privacy regulations (GDPR, CCPA, PECR) and mobile platform privacy guidelines (Apple App Tracking Transparency / SKAdNetwork, Google Privacy Sandbox).
+- Always ensure appropriate security, hashing, and consent management are enforced when handling first-party user identifiers.
